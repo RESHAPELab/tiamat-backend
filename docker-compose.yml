@@ -10,8 +10,6 @@ services:
       - db
     env_file:
       - .env
-    environment:
-      MYSQL_HOST: db
     volumes:
       - .:/app
     restart: always
